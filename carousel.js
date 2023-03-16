@@ -19,4 +19,4 @@ const carousel = setInterval (() => {
     let imgUrl = images[imgIndex];
     imgElement.setAttribute('src', imgUrl);
     imgIndex++;
-}, 2000)
+}, 1000)
